@@ -19,6 +19,7 @@ body {
 }
 
 
+
 .nadpis {
     margin:0;
     padding:0;
@@ -37,7 +38,9 @@ body {
 }
 
 .box {
-    margin: 150px auto 0 auto;
+    position: relative;
+    top: 150px;
+    margin: 0 auto 0 auto;
     padding: 30px;
     width: 550px;
     background-color: white;
@@ -50,4 +53,7 @@ body {
     border-radius: 50%;
     border: 3px solid white;
     width: 150px;
+    position: absolute;
+    left: 475px;
+    top: -75px;
 }
