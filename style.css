@@ -14,3 +14,40 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+    background-color: #b2bec3;
+}
+
+
+.nadpis {
+    margin:0;
+    padding:0;
+    font-size: 36px;
+    font-weight: bold;
+    color:#d63031;
+}
+
+.odstavec1,
+.odstavec2 {
+    font-size: 18px;
+}
+
+.odstavec2 {
+    margin-bottom: 30px;
+}
+
+.box {
+    margin: 150px auto 0 auto;
+    padding: 30px;
+    width: 550px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.fotka {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 150px;
+}
