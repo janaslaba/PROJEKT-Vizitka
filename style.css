@@ -54,6 +54,38 @@ body {
     border: 3px solid white;
     width: 150px;
     position: absolute;
-    left: 475px;
+    right: -75px;
     top: -75px;
+}
+
+a {
+    display: block;
+    width:auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.twitter {
+    background-color:  #1da1f2;
+}
+
+.fcb {
+    background-color:  #3b5998;
+    margin-top: 5px;
+}
+
+.twitter:hover,
+.twitter:active {
+    background-color: #0b7bc1;    
+}
+
+.fcb:hover,
+.fcb:active {
+    background-color: #2b406e;
 }
