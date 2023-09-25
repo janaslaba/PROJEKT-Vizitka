@@ -89,3 +89,8 @@ a {
 .fcb:active {
     background-color: #2b406e;
 }
+
+.odstavec1,
+.odstavec2 {
+    text-align: justify;
+}
